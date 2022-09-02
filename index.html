@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Boostrap-Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,22 +16,30 @@
 <body style="font-family:'Roboto', sans-serif; background: #191765;" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
   <!-- Header -->
   <header class="px-5 mb-3">
-    <nav class="container navbar fixed-top px-5" style="background-color: #191765;" id="navbar-example2">
-      <!-- Logos -->
-      <a class="navbar-brand text-light" href="#">Olivier</a> 
-      <!-- Menu List -->
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link text-light" aria-current="page" href="#scrollspyHeading1">Portoflio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#scrollspyHeading2">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#scrollspyHeading3">Contact</a>
-        </li>
+    <nav class ="d-flex navbar navbar-expand-xl navbar-dark justify-content-between fixed-top px-5
+    " style="background-color: #191765;" id="navbar-example2"
+    >
+      <a class ="navbar-brand" href ="#"> Olivier </a>
+      <button class ="navbar-toggler" type ="button" data-toggle ="collapse" data-target ="#colNav">
+      <span class ="navbar-toggler-icon"></span>
+      </button>
+      <div class ="d-flex collapse navbar-collapse justify-content-end" id ="colNav">
+      <ul class ="navbar-nav">
+      <li class ="nav-item">
+      <a class ="nav-link text-light" href="#scrollspyHeading1
+      "> Portfolio </a>
+      </li>
+      <li class ="nav-item">
+      <a class ="nav-link text-light" href ="#scrollspyHeading2
+      "> About </a>
+      </li>
+      <li class ="nav-item">
+      <a class ="nav-link text-light" href ="#scrollspyHeading3
+      "> Contact </a>
+      </li>
       </ul>
-    </nav>
+      </div>
+      </nav>
   </header>
 
   <!-- Section -->
