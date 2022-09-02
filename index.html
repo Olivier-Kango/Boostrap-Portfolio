@@ -161,8 +161,36 @@
   </section>
 
   <!-- Footer -->
-  <footer class="container mx-5 px-5">
-    <h3 id="scrollspyHeading3" class="text-primary display-4 fw-bold">Contact</h3>
+  <footer class="container mb-5 w-50 d-flex flex-column justify-content-center align-items-center">
+    <h3 id="scrollspyHeading3" class="text-primary display-4 fw-bold my-4">Contact Me!</h3>
+    <p class="card-text text-light text-center">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
+    <br>
+    <form action="/action_page.php" class="w-100 d-flex flex-column mb-5 pb-5 border-bottom">
+      <div class="mb-3">
+        <label for="pwd" class="form-label" hidden>Name:</label>
+        <input type="text" class="form-control" id="pwd" placeholder="Ayush Jha" name="name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label" hidden>Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <label for="comment" hidden>Comments:</label>
+      <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Enter your text here !!!"></textarea>
+      <button type="submit" class="btn btn-primary my-3 align-self-center">Get in touch</button>
+    </form>
+
+    <ul class="d-flex list-unstyled justify-content-between">
+      <li class="px-2"><a href="https://github.com/Olivier-Kango"><i class="fa fa-github link-light fa-2x"></i></a>
+      </li>
+      <li class="px-2"><a href="https://www.linkedin.com/in/olivier-kango-b990601b8/"><i class="fa fa-linkedin link-light fa-2x"></i></a>
+      </li>
+      <li class="px-2"><a href="https://www.facebook.com/olivierhjhjo.7/"><i class="fa fa-hand-peace-o link-light fa-2x"></i></a>
+      </li>
+      <li class="px-2"><a href="https://twitter.com/olivierkango1"><i class="fa fa-twitter link-light fa-2x"></i></a>
+      </li>
+      <li class="px-2"><a href="mailto:olivierkango@gmail.com" class="fa medium link-light fa-2x text-decoration-none">M</a>
+      </li>
+    </ul>
   </footer>
 </body>
 </html>
