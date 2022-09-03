@@ -16,7 +16,7 @@ We used Laura Jong's [template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR
 
 ## Live Demo
 
-[Portfolio](https://olivier-kango.github.io/portfolio/)
+[Boostrap-Portfolio](https://boostrap-portfolio.netlify.app/)
 
 
 ## Getting Started
@@ -44,13 +44,19 @@ To run this app on your local computer you need the browser (Google Chrome is th
 
 <img width="960" alt="desktop-olk" src="https://user-images.githubusercontent.com/108806646/186799151-6348747a-5d3b-48f3-b48d-c1fa7954e703.png">
 
-## Author
+## Author-1
 
 👤 **Oliver Kango**
 
 - GitHub: [@githubolivier](https://github.com/Olivier-Kango)
 - Twitter: [@twitterolivier](https://twitter.com/olivierkango1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/olivier-kango-b990601b8/)
+
+## Author-2
+
+👤 **Ayush Jha**
+
+- GitHub: [@githubolivier](https://github.com/Jhaman1895)
 
 ## 🤝 Contributing
 

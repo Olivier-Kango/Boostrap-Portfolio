@@ -1,5 +1,10 @@
 @media (max-width: 1200px) {
-    .nav-item {
-        display: none;
-    }
+  .nav-item {
+    display: none;
+  }
+}
+
+body, nav {
+  background-color: #191765;
+  
 }
